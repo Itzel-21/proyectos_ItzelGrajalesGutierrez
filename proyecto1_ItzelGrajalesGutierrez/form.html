@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <header>
+        <h2>Formularios en html</h2>
+        <nav>
+            <ul>
+                <li><a target="_self" href="index.html">Inicio</a></i>
+                <li><a target="_self" href="form.html">Formulario</a></li>
+                <li><a target="_self" href="table.html">Tabla</a></li>
+                <li><a target="_self" href="nosotros.html">Nosotros</a></i>
+            </ul>
+        </nav>
+        
+    </header>
+    <main>
+         <section>
+
+            <form action="/formulario" method="GET">
+                <fieldset>
+                    <legend>Contactános llenando todos los campos</legend>
+
+                        <div>
+                            <label>Nombre</label>
+                            <input type="text" placeholder="Tu Nombre">
+                        </div>
+                        <div>
+                            <label>Teléfono</label>
+                            <input type="tel" placeholder="Tu Teléfono">
+                        </div>
+                        <div>
+                            <label>Correo</label>
+                            <input type="email" placeholder="Tu Email">
+                        </div>
+                        <div>
+                            <label>edad</label>
+                            <input type="tel" placeholder="tu edad">
+                        </div>
+                        <div>
+                            <label>genero</label>
+                            <input type="radio" name="g_mujer" value="v-mujer">mujer
+                            <input type="radio" name="g_hombre" value="v-hombre">hombre
+                        </div>
+                        <div>
+                            <label>fecha de la cita</label>
+                            <input type="date">
+                        </div>
+                           
+                           <div class="campo">
+                            <label>hora de la cita</label>
+                            <input type="time" name="" id="">
+                           </div>
+            
+                        <div>
+                            <label>Mensaje</label>
+                            <textarea></textarea>
+                        </div>
+            
+
+                    <div>
+                        <input type="submit" value="Enviar">
+                    </div>
+                </fieldset>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>Todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
